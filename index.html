@@ -1,0 +1,636 @@
+<meta charset="UTF-8">
+<title>Mentoria para Professores · Mastering English Institute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Turma Fundadora da Mentoria para Professores, Mastering English Institute. Método, condução de aula e autoridade para professoras de inglês.">
+<style>
+  /* fontes hospedadas localmente em assets/fonts (evita depender do Google Fonts) */
+  @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSqn7B6DxjY.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSqn7B6D.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url(assets/fonts/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSqn7B6DxjY.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url(assets/fonts/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSqn7B6D.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKky2F7i6C.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/-F63fjptAgt5VM-kVkqdyU8n1iEq131nj-otFQ.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/-F63fjptAgt5VM-kVkqdyU8n1i8q131nj-o.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgsAXHNlYzg.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgsAXHNk.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+  @font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+  :root{
+    --ground:#F2EFEA;
+    --surface:#FFFFFF;
+    --surface-2:#EAE5DC;
+    --ink:#101010;
+    --ink-soft:#57524A;
+    --ink-faint:#8A8478;
+    --line:#DAD5CC;
+    --line-strong:#C9CACC;
+    --accent:#2E2E2E;
+    --accent-ink:#FFFFFF;
+    --mark:#101010;
+    --shadow:0 1px 2px rgba(16,16,16,.04),0 8px 24px rgba(16,16,16,.05);
+    --shadow-lg:0 20px 60px rgba(16,16,16,.10);
+
+    --font-display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+    --font-body:"Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    --font-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+
+    --measure:62ch;
+    --content:920px;
+    --content-wide:1220px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#171512;
+      --surface:#201D19;
+      --surface-2:#1C1A16;
+      --ink:#ECE7DE;
+      --ink-soft:#A9A090;
+      --ink-faint:#7C7365;
+      --line:#332F29;
+      --line-strong:#3E3A32;
+      --accent:#EBE6DA;
+      --accent-ink:#1B1915;
+      --mark:#ECE7DE;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+      --shadow-lg:0 20px 60px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#171512;
+    --surface:#201D19;
+    --surface-2:#1C1A16;
+    --ink:#ECE7DE;
+    --ink-soft:#A9A090;
+    --ink-faint:#7C7365;
+    --line:#332F29;
+    --line-strong:#3E3A32;
+    --accent:#EBE6DA;
+    --accent-ink:#1B1915;
+    --mark:#ECE7DE;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    --shadow-lg:0 20px 60px rgba(0,0,0,.4);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{
+    background:
+      radial-gradient(circle at 1px 1px, rgba(16,16,16,.05) 1px, transparent 0) 0 0/22px 22px,
+      var(--ground);
+    color:var(--ink);
+    font-family:var(--font-body);
+    font-size:16.5px;
+    line-height:1.65;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  img{max-width:100%}
+
+  .wrap{max-width:var(--content);margin:0 auto;padding:0 clamp(1.15rem,5vw,2.75rem)}
+  .wrap-wide{max-width:var(--content-wide);margin:0 auto;padding:0 clamp(1.15rem,5vw,2.75rem)}
+
+  h1,h2,h3,h4{font-family:var(--font-display);font-weight:400;line-height:1.05;text-wrap:balance;color:var(--ink)}
+  p,li{max-width:var(--measure)}
+  strong{font-weight:600;color:var(--ink)}
+  em{font-style:italic}
+  a{color:inherit}
+
+  .eyebrow{
+    font-family:var(--font-mono);
+    font-size:.7rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink-faint);
+  }
+
+  /* ---------- theme toggle ---------- */
+  .toggle{position:fixed;top:.9rem;right:.9rem;z-index:50;background:var(--surface);border:1px solid var(--line-strong);color:var(--ink-soft);border-radius:999px;padding:.4rem .8rem;font-family:var(--font-mono);font-size:.68rem;letter-spacing:.06em;cursor:pointer;box-shadow:var(--shadow)}
+  .toggle:focus-visible{outline:2px solid var(--mark);outline-offset:2px}
+
+  /* ---------- buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+    font-family:var(--font-body);font-weight:600;font-size:.92rem;letter-spacing:.01em;
+    padding:1rem 1.9rem;border-radius:4px;border:1px solid var(--accent);
+    text-decoration:none;cursor:pointer;transition:transform .15s ease,opacity .15s ease;
+  }
+  .btn-primary{background:var(--accent);color:var(--accent-ink)}
+  .btn-primary:hover{transform:translateY(-1px);opacity:.92}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line-strong)}
+  .btn-ghost:hover{border-color:var(--ink)}
+  .btn-block{width:100%}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;padding:clamp(5rem,14vw,8.5rem) 0 clamp(3.5rem,8vw,5rem);border-bottom:1px solid var(--line);overflow:hidden}
+  .hero-mono{
+    position:absolute;top:-6vw;right:-4vw;
+    font-family:var(--font-display);font-style:italic;font-weight:400;
+    font-size:clamp(18rem,42vw,30rem);line-height:1;color:var(--ink);
+    opacity:.045;pointer-events:none;user-select:none;z-index:0;
+  }
+  .hero-inner{position:relative;z-index:1}
+  .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+  @media(max-width:880px){.hero-grid{grid-template-columns:1fr}}
+  .hero .eyebrow{display:block;margin-bottom:1.6rem;opacity:0;animation:rise .7s ease forwards}
+  .hero h1{
+    font-size:clamp(2.5rem,4.6vw,3.9rem);letter-spacing:-.01em;
+    opacity:0;animation:rise .8s ease .1s forwards;
+  }
+  .hero .lede{
+    font-family:var(--font-display);font-size:clamp(1.2rem,2.2vw,1.45rem);
+    line-height:1.45;font-weight:400;color:var(--ink-soft);max-width:40ch;margin-top:1.5rem;
+    opacity:0;animation:rise .8s ease .22s forwards;
+  }
+  .hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:1.2rem;margin-top:2.4rem;opacity:0;animation:rise .8s ease .34s forwards}
+  .hero-cta .note{font-family:var(--font-mono);font-size:.74rem;color:var(--ink-faint);letter-spacing:.04em}
+
+  .hero-photo{position:relative;opacity:0;animation:rise 1s ease .3s forwards;max-width:480px}
+  .hero-photo .frame{position:absolute;top:1.2rem;left:1.2rem;right:-1.2rem;bottom:-1.2rem;border:1px solid var(--line-strong);border-radius:8px;z-index:0}
+  .hero-photo figure{position:relative;z-index:1;margin:0}
+  .hero-photo img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top center;border-radius:8px;border:1px solid var(--line);box-shadow:var(--shadow-lg);display:block}
+  .hero-photo figcaption{margin-top:.9rem;font-family:var(--font-mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint)}
+  @media(max-width:880px){.hero-photo{max-width:380px;margin:0 auto}.hero-photo .frame{display:none}}
+
+  .trustbar{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+    background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden;
+    margin-top:3.2rem;opacity:0;animation:rise .8s ease .46s forwards;position:relative;z-index:1;
+  }
+  .trustbar div{background:var(--surface);padding:.95rem 1.1rem}
+  .trustbar dt{font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.35rem}
+  .trustbar dd{font-family:var(--font-mono);font-size:.85rem;font-weight:500;color:var(--ink);line-height:1.3}
+  @media(max-width:640px){.trustbar{grid-template-columns:repeat(2,1fr)}}
+
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+
+  /* ---------- sections ---------- */
+  section{padding:clamp(3.6rem,8vw,5.5rem) 0;border-bottom:1px solid var(--line)}
+  section.tight{padding-top:0}
+  .sec-label{display:block;margin-bottom:1rem}
+  section h2{font-size:clamp(2rem,4.2vw,2.9rem);max-width:20ch;margin-bottom:1.1rem}
+  .sec-intro{font-family:var(--font-display);font-size:1.2rem;color:var(--ink-soft);max-width:48ch;line-height:1.5}
+
+  /* ---------- pain ---------- */
+  .pain-list{margin-top:2.2rem;display:grid;gap:0}
+  .pain-list p{font-size:1.08rem;color:var(--ink-soft);padding:1.1rem 0;border-top:1px solid var(--line);max-width:58ch}
+  .pain-list p:first-child{border-top:0}
+  .pain-close{margin-top:1.8rem;font-family:var(--font-display);font-style:italic;font-size:1.5rem;color:var(--ink);max-width:34ch;line-height:1.35}
+
+  /* ---------- pull quote ---------- */
+  .pullquote{
+    margin:3.2rem 0 0;padding:0 0 0 1.6rem;border-left:2px solid var(--mark);
+    max-width:36ch;
+  }
+  .pullquote p{
+    font-family:var(--font-display);font-style:italic;font-weight:400;
+    font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1.28;color:var(--ink);max-width:none;
+  }
+  .pullquote cite{display:block;margin-top:1rem;font-family:var(--font-mono);font-style:normal;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint)}
+
+  /* ---------- antes/depois ---------- */
+  .split2{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:2.4rem}
+  .split2 > div{background:var(--surface);padding:1.8rem 1.9rem}
+  .split2 h3{font-family:var(--font-mono);font-size:.7rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:1rem}
+  .split2 .before h3{color:var(--ink-faint)}
+  .split2 .after{position:relative}
+  .split2 .after h3{color:var(--ink)}
+  .split2 ul{list-style:none}
+  .split2 li{position:relative;padding-left:1.2rem;margin-bottom:.7rem;font-size:.96rem;color:var(--ink-soft)}
+  .split2 .before li::before{content:"×";position:absolute;left:0;color:var(--ink-faint);font-family:var(--font-mono)}
+  .split2 .after li::before{content:"";position:absolute;left:0;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--mark)}
+  @media(max-width:680px){.split2{grid-template-columns:1fr}}
+
+  /* ---------- pillars ---------- */
+  ol.pillars{list-style:none;counter-reset:p;margin-top:2.4rem;display:grid;gap:0}
+  ol.pillars > li{counter-increment:p;position:relative;padding:1.7rem 0 1.7rem 3.6rem;border-top:1px solid var(--line)}
+  ol.pillars > li:first-child{border-top:0}
+  ol.pillars > li::before{content:counter(p,decimal-leading-zero);position:absolute;left:0;top:1.75rem;font-family:var(--font-mono);font-size:.85rem;color:var(--ink-faint)}
+  ol.pillars h3{font-family:var(--font-body);font-size:1.08rem;font-weight:600;margin-bottom:.4rem}
+  ol.pillars p{font-size:.96rem;color:var(--ink-soft)}
+  .pillar-tag{display:inline-block;margin-top:.6rem;font-family:var(--font-mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);border:1px solid var(--line-strong);border-radius:999px;padding:.2rem .6rem}
+
+  /* ---------- diff cards ---------- */
+  .diff-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-top:2.4rem}
+  .diff-card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:1.5rem 1.4rem;box-shadow:var(--shadow)}
+  .diff-card .n{font-family:var(--font-mono);font-size:.7rem;color:var(--ink-faint);letter-spacing:.08em}
+  .diff-card h3{font-family:var(--font-body);font-size:1.02rem;font-weight:600;margin:.6rem 0 .5rem}
+  .diff-card p{font-size:.92rem;color:var(--ink-soft)}
+  @media(max-width:760px){.diff-grid{grid-template-columns:1fr}}
+
+  /* ---------- offer ---------- */
+  .offer{background:var(--surface);border:1px solid var(--line-strong);border-radius:10px;padding:0;box-shadow:var(--shadow-lg);margin-top:2.4rem;overflow:hidden}
+  .offer-item{display:grid;grid-template-columns:190px 1fr;gap:1.4rem;padding:1.3rem 1.6rem;border-top:1px solid var(--line)}
+  .offer-item:first-child{border-top:0}
+  .offer-item dt{font-family:var(--font-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);padding-top:.2em}
+  .offer-item dd{font-size:.98rem;color:var(--ink-soft)}
+  .offer-item dd strong{color:var(--ink)}
+  @media(max-width:620px){.offer-item{grid-template-columns:1fr;gap:.3rem}}
+
+  /* ---------- audience ---------- */
+  .aud-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;margin-top:2.4rem}
+  .aud-card h3{font-family:var(--font-body);font-size:.98rem;font-weight:600;margin-bottom:1rem;padding-bottom:.8rem;border-bottom:1px solid var(--line)}
+  .aud-card ul{list-style:none}
+  .aud-card li{position:relative;padding-left:1.3rem;margin-bottom:.75rem;font-size:.95rem;color:var(--ink-soft)}
+  .aud-yes li::before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--mark)}
+  .aud-no li::before{content:"×";position:absolute;left:0;color:var(--ink-faint);font-family:var(--font-mono)}
+  @media(max-width:680px){.aud-grid{grid-template-columns:1fr}}
+
+  /* ---------- founder note ---------- */
+  .founder{display:grid;grid-template-columns:360px 1fr;gap:2.8rem;margin-top:2.4rem;align-items:center}
+  .founder-photo{position:relative;justify-self:center;width:100%}
+  .founder-photo .frame{position:absolute;top:1.3rem;left:1.3rem;right:-1.3rem;bottom:-1.3rem;border:1px solid var(--line-strong);border-radius:10px;z-index:0}
+  .founder-photo img{
+    width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center center;
+    border-radius:10px;border:1px solid var(--line);box-shadow:var(--shadow-lg);
+    position:relative;z-index:1;display:block;
+  }
+  .founder p{color:var(--ink-soft);font-size:.98rem}
+  .founder p + p{margin-top:.9rem}
+  .founder .sig{margin-top:1.2rem;font-family:var(--font-display);font-style:italic;font-size:1.3rem;color:var(--ink)}
+  @media(max-width:760px){.founder{grid-template-columns:1fr}.founder-photo{max-width:320px;margin:0 auto}.founder-photo .frame{display:none}}
+
+  /* ---------- pricing ---------- */
+  .price-wrap{margin-top:2.4rem;display:grid;grid-template-columns:1.15fr 1fr;gap:1.6rem;align-items:start}
+  @media(max-width:820px){.price-wrap{grid-template-columns:1fr}}
+  .price-card{background:var(--surface);border:1px solid var(--line-strong);border-radius:10px;padding:2.1rem 2.1rem 2.3rem;box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
+  .price-card .badge{position:absolute;top:1.4rem;right:1.4rem;font-family:var(--font-mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);border:1px solid var(--line-strong);border-radius:999px;padding:.25rem .7rem}
+  .price-card .was{font-family:var(--font-mono);font-size:.95rem;color:var(--ink-faint);text-decoration:line-through}
+  .price-card .now{font-family:var(--font-display);font-size:clamp(2.6rem,5vw,3.4rem);color:var(--ink);line-height:1;margin:.5rem 0 .2rem}
+  .price-card .inst{font-family:var(--font-mono);font-size:.85rem;color:var(--ink-soft);margin-bottom:1.6rem}
+  .price-card ul{list-style:none;margin-bottom:1.8rem}
+  .price-card li{position:relative;padding-left:1.3rem;margin-bottom:.6rem;font-size:.92rem;color:var(--ink-soft)}
+  .price-card li::before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--mark)}
+  .price-side{display:flex;flex-direction:column;gap:1rem}
+  .mini-card{background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:1.2rem 1.3rem}
+  .mini-card .lbl{font-family:var(--font-mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.5rem;display:block}
+  .mini-card p{font-size:.9rem;color:var(--ink-soft)}
+
+  /* ---------- faq ---------- */
+  .faq{margin-top:2.2rem;border-top:1px solid var(--line)}
+  .faq details{border-bottom:1px solid var(--line);padding:1.15rem 0}
+  .faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font-weight:600;font-size:.98rem;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";font-family:var(--font-mono);font-weight:400;color:var(--ink-faint);flex-shrink:0}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin-top:.8rem;font-size:.94rem;color:var(--ink-soft)}
+
+  /* ---------- final cta ---------- */
+  .final{position:relative;text-align:center;padding:clamp(4.5rem,10vw,7rem) 0;overflow:hidden;border-bottom:0}
+  .final-mono{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:var(--font-display);font-style:italic;font-size:clamp(14rem,34vw,24rem);color:var(--ink);opacity:.04;pointer-events:none;line-height:1}
+  .final-inner{position:relative;z-index:1;max-width:640px;margin:0 auto}
+  .final h2{max-width:none}
+  .final .lede{font-family:var(--font-display);font-size:1.25rem;color:var(--ink-soft);margin:1.2rem auto 2.2rem;max-width:44ch}
+  .final .note{margin-top:1.3rem;font-family:var(--font-mono);font-size:.74rem;color:var(--ink-faint);letter-spacing:.03em}
+
+  /* ---------- footer ---------- */
+  footer{padding:2.4rem 0 3rem;color:var(--ink-faint);font-size:.83rem;text-align:center}
+  footer a{color:var(--ink-soft)}
+
+  /* ---------- sticky bar ---------- */
+  .sticky{
+    position:fixed;left:0;right:0;bottom:0;z-index:40;
+    background:var(--surface);border-top:1px solid var(--line-strong);
+    padding:.85rem 1.1rem;box-shadow:0 -8px 24px rgba(16,16,16,.08);
+    display:flex;align-items:center;justify-content:center;gap:1.2rem;
+    transform:translateY(110%);transition:transform .3s ease;
+  }
+  .sticky.show{transform:translateY(0)}
+  .sticky .p{font-family:var(--font-mono);font-size:.82rem;color:var(--ink-soft);white-space:nowrap}
+  .sticky .p strong{color:var(--ink)}
+  .sticky .btn{padding:.7rem 1.3rem;font-size:.84rem}
+  @media(max-width:480px){.sticky .p{display:none}}
+
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+  @media print{
+    .toggle,.sticky{display:none}
+    body{background:#fff;color:#000;font-size:10.5pt}
+    section{break-inside:avoid}
+  }
+</style>
+
+<button class="toggle" id="themeToggle" type="button" aria-label="Alternar tema">tema</button>
+
+<header class="hero" id="topo">
+  <span class="hero-mono" aria-hidden="true">K</span>
+  <div class="wrap-wide hero-inner">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Mastering English Institute · Turma Fundadora</span>
+        <h1>Você não vende uma aula, você conduz a transformação do seu aluno.</h1>
+        <p class="lede">Mentoria para professoras particulares de inglês que já dominam o idioma, mas sentem que a aula ainda depende de improviso, não de um método que se repete.</p>
+        <div class="hero-cta">
+          <a href="#investimento" class="btn btn-primary">Garantir minha vaga</a>
+          <span class="note">Turma Fundadora · 12 vagas · início 3 de novembro</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="frame" aria-hidden="true"></div>
+        <figure>
+          <img src="assets/images/karen-hero.jpg" alt="Karen, fundadora do Mastering English Institute">
+          <figcaption>Karen · Mastering English Institute</figcaption>
+        </figure>
+      </div>
+    </div>
+    <dl class="trustbar">
+      <div><dt>Formato</dt><dd>8 encontros ao vivo</dd></div>
+      <div><dt>Acompanhamento</dt><dd>Hotseat quinzenal</dd></div>
+      <div><dt>Acesso</dt><dd>12 meses</dd></div>
+      <div><dt>Risco</dt><dd>Garantia de 7 dias</dd></div>
+    </dl>
+  </div>
+</header>
+
+<section id="dor">
+  <div class="wrap">
+    <span class="eyebrow sec-label">A situação</span>
+    <h2>Você conhece essa cena.</h2>
+    <div class="pain-list">
+      <p>O aluno trava no meio da frase e você improvisa uma correção na hora, sem saber se foi a certa.</p>
+      <p>Prepara a aula em cima da hora porque não existe um sistema para repetir, só a experiência acumulada.</p>
+      <p>Sabe que entrega valor real, mas ainda cobra como se estivesse começando, porque nunca aprendeu a colocar preço no próprio método.</p>
+    </div>
+    <p class="pain-close">O problema nunca foi o seu inglês. Foi nunca ter tido um método para conduzir a aula, e um preço que respeite o que você já sabe fazer.</p>
+  </div>
+</section>
+
+<section id="virada" class="tight">
+  <div class="wrap">
+    <div class="split2">
+      <div class="before">
+        <h3>Como é hoje</h3>
+        <ul>
+          <li>Cada aula é uma decisão nova, sem estrutura fixa</li>
+          <li>Correção no impulso, sem critério definido</li>
+          <li>Preço definido por medo de perder o aluno</li>
+          <li>Nenhum material próprio para reaplicar</li>
+        </ul>
+      </div>
+      <div class="after">
+        <h3>Depois da mentoria</h3>
+        <ul>
+          <li>Método próprio de condução, repetível em qualquer aula</li>
+          <li>Critério de correção que não trava o aluno</li>
+          <li>Proposta e precificação com fundamento, não com medo</li>
+          <li>Kit de materiais prontos para aplicar na primeira semana</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pullquote">
+      <p>Você não vende uma aula, você conduz a transformação do seu aluno.</p>
+      <cite>Frase-âncora · Mastering English Institute</cite>
+    </div>
+  </div>
+</section>
+
+<section id="promessa">
+  <div class="wrap">
+    <span class="eyebrow sec-label">A promessa, sem exagero</span>
+    <h2>Em cerca de quatro meses, você sai com um método que é seu.</h2>
+    <p class="sec-intro">Você constrói um método próprio de condução de aula, sai com materiais reutilizáveis e entrega, ao final, uma aula demonstrativa avaliada mais um plano de 90 dias para aplicar imediatamente.</p>
+    <p style="margin-top:1.2rem;color:var(--ink-soft);font-size:.95rem;max-width:52ch">Não prometemos fluência do seu aluno, nem agenda cheia da noite para o dia. Prometemos método, condução e autonomia, o que está sob o seu controle.</p>
+  </div>
+</section>
+
+<section id="metodo">
+  <div class="wrap">
+    <span class="eyebrow sec-label">O método</span>
+    <h2>Cinco eixos, um sistema completo de sala de aula.</h2>
+    <ol class="pillars">
+      <li>
+        <h3>Condução de aula</h3>
+        <p>Fim do silêncio do aluno: perguntas que geram resposta, sequência de fala e chunks prontos para usar.</p>
+      </li>
+      <li>
+        <h3>Correção e confiança</h3>
+        <p>Como corrigir sem travar o aluno, delayed feedback e os erros clássicos que toda professora já ouviu.</p>
+      </li>
+      <li>
+        <h3>Método contra improviso</h3>
+        <p>As três escutas, shadowing e uma estrutura de aula que não depende de estar inspirada naquele dia.</p>
+      </li>
+      <li>
+        <h3>O negócio da professora</h3>
+        <p>Proposta, precificação e posicionamento: o eixo que quase toda formação de professor ignora.</p>
+        <span class="pillar-tag">o diferencial mais citado</span>
+      </li>
+      <li>
+        <h3>Prática e prova</h3>
+        <p>Aula demonstrativa avaliada mais plano de 90 dias, a entrega concreta que fecha a mentoria.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="diferenca">
+  <div class="wrap">
+    <span class="eyebrow sec-label">Por que não é só mais um curso</span>
+    <h2>A diferença está no acompanhamento, não no conteúdo.</h2>
+    <div class="diff-grid">
+      <div class="diff-card">
+        <span class="n">01</span>
+        <h3>Hotseat individual quinzenal</h3>
+        <p>Acompanhamento de verdade, não conteúdo solto para assistir sozinha e torcer para aplicar certo.</p>
+      </div>
+      <div class="diff-card">
+        <span class="n">02</span>
+        <h3>Eixo de negócio</h3>
+        <p>Proposta, precificação e posicionamento, o que quase nenhuma formação de professor de inglês ensina.</p>
+      </div>
+      <div class="diff-card">
+        <span class="n">03</span>
+        <h3>Entrega concreta</h3>
+        <p>Você termina com uma aula demonstrativa avaliada e um plano de 90 dias, não com um certificado sem aplicação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="oferta">
+  <div class="wrap">
+    <span class="eyebrow sec-label">O que você recebe</span>
+    <h2>Tudo o que compõe a mentoria.</h2>
+    <div class="offer">
+      <div class="offer-item"><dt>Encontros</dt><dd><strong>8 aulas ao vivo em grupo</strong>, cerca de 2h cada, quinzenais, de novembro a fevereiro. Gravação liberada.</dd></div>
+      <div class="offer-item"><dt>Hotseat</dt><dd>Sessão individual de checkpoint a cada quinzena, na semana entre as aulas ao vivo.</dd></div>
+      <div class="offer-item"><dt>Biblioteca</dt><dd>Conteúdos gravados de apoio: os drills do método, chunks, três escutas, shadowing, tipos de correção.</dd></div>
+      <div class="offer-item"><dt>Kit de materiais</dt><dd>Cerca de 10 templates prontos: plano de aula comunicativo, atividade de listening, cards de role play, writing template, mini-report de progresso, modelo de proposta e tabela de precificação.</dd></div>
+      <div class="offer-item"><dt>Bônus</dt><dd>Grupo de WhatsApp da turma, certificado de participação e aula bônus sobre Instagram para professoras.</dd></div>
+      <div class="offer-item"><dt>Acesso</dt><dd>Gravações e materiais liberados por <strong>12 meses</strong>.</dd></div>
+    </div>
+  </div>
+</section>
+
+<section id="publico">
+  <div class="wrap">
+    <span class="eyebrow sec-label">Para quem é</span>
+    <h2>Feita para quem já dá aula e sente falta de sistema.</h2>
+    <div class="aud-grid">
+      <div class="aud-card">
+        <h3>É para você se</h3>
+        <ul class="aud-yes">
+          <li>Você já dá aulas particulares ou em turmas pequenas, com 2 a 8 anos de experiência</li>
+          <li>Domina o inglês, mas sente que a aula depende de improviso</li>
+          <li>Quer sair da escola ou franquia e migrar para o atendimento particular</li>
+          <li>É dona de uma escola pequena e quer estruturar o método da casa</li>
+        </ul>
+      </div>
+      <div class="aud-card">
+        <h3>Não é para você se</h3>
+        <ul class="aud-no">
+          <li>Está procurando aprender inglês, não a dar aula de inglês</li>
+          <li>Quer conteúdo solto, sem acompanhamento nem prática</li>
+          <li>Não pretende aplicar a aula demonstrativa e o plano de 90 dias</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="karen">
+  <div class="wrap-wide">
+    <span class="eyebrow sec-label">Quem conduz</span>
+    <h2>Turma Fundadora, conduzida pela Karen.</h2>
+    <div class="founder">
+      <div class="founder-photo">
+        <div class="frame" aria-hidden="true"></div>
+        <img src="assets/images/karen-sobre.jpg" alt="Karen, professora e fundadora do Mastering English Institute">
+      </div>
+      <div>
+        <p>Karen é professora de inglês e fundadora do Mastering English Institute. Esta mentoria nasce da prática de sala de aula, não de teoria solta: o método que você vai aprender é o mesmo que ela usa e testa com suas próprias alunas.</p>
+        <p>Esta é a primeira turma, por isso as vagas são limitadas a 12: o acompanhamento é mais próximo, e a condição de fundadora existe em troca de uma contrapartida simples, um depoimento em vídeo ao final da jornada.</p>
+        <p class="sig">Karen</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="investimento">
+  <div class="wrap">
+    <span class="eyebrow sec-label">Investimento</span>
+    <h2>Turma Fundadora, condição exclusiva.</h2>
+    <div class="price-wrap">
+      <div class="price-card">
+        <span class="badge">12 vagas</span>
+        <span class="was">De R$ 2.997</span>
+        <div class="now">R$ 2.497</div>
+        <div class="inst">à vista, ou 12x de R$ 249</div>
+        <ul>
+          <li>8 encontros ao vivo, quinzenais, com gravação liberada</li>
+          <li>Hotseat individual a cada quinzena</li>
+          <li>Kit com cerca de 10 templates prontos</li>
+          <li>Biblioteca de apoio e bônus de Instagram para professoras</li>
+          <li>12 meses de acesso a gravações e materiais</li>
+          <li>Certificado de participação</li>
+        </ul>
+        <a href="#faq" class="btn btn-primary btn-block">Quero garantir minha vaga</a>
+      </div>
+      <div class="price-side">
+        <div class="mini-card">
+          <span class="lbl">Garantia</span>
+          <p>Assista à aula inaugural. Se não for o seu momento, devolução integral durante os primeiros 7 dias.</p>
+        </div>
+        <div class="mini-card">
+          <span class="lbl">Contrapartida fundadora</span>
+          <p>Em troca da condição especial, um depoimento em vídeo ao fim da mentoria e permissão de uso do seu caso.</p>
+        </div>
+        <div class="mini-card">
+          <span class="lbl">Vagas</span>
+          <p>12 no total, mínimo viável de 8 para a turma acontecer. Escassez real, não artificial.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <span class="eyebrow sec-label">Perguntas frequentes</span>
+    <h2>Antes de decidir.</h2>
+    <div class="faq">
+      <details>
+        <summary>Preciso ter quantos anos de experiência?</summary>
+        <p>O perfil ideal tem de 2 a 8 anos dando aula, mas o que importa mesmo é já estar em sala de aula e sentir falta de um método. Se essa é a sua realidade, a mentoria serve.</p>
+      </details>
+      <details>
+        <summary>Vou aprender inglês ou a dar aula de inglês?</summary>
+        <p>A dar aula. Não é curso de idioma, é mentoria de método, condução de aula e posicionamento para quem já domina o inglês.</p>
+      </details>
+      <details>
+        <summary>E se eu não puder acompanhar ao vivo?</summary>
+        <p>As 8 aulas ficam gravadas e liberadas por 12 meses, e o hotseat individual quinzenal garante que nenhuma dúvida fique parada.</p>
+      </details>
+      <details>
+        <summary>Tem certificado?</summary>
+        <p>Sim, certificado de participação ao final da mentoria.</p>
+      </details>
+      <details>
+        <summary>Posso parcelar?</summary>
+        <p>Sim, em até 12x de R$ 249 na condição de Turma Fundadora, ou à vista por R$ 2.497.</p>
+      </details>
+      <details>
+        <summary>E se eu não gostar?</summary>
+        <p>Assista à aula inaugural. Se não for o seu momento, a devolução é integral durante os primeiros 7 dias.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <span class="final-mono" aria-hidden="true">K</span>
+  <div class="wrap final-inner">
+    <span class="eyebrow">Turma Fundadora · 12 vagas</span>
+    <h2>A primeira turma existe para quem quer sair na frente.</h2>
+    <p class="lede">8 encontros ao vivo, hotseat quinzenal e um método que passa a ser seu, com uma condição que não se repete na segunda turma.</p>
+    <a href="#investimento" class="btn btn-primary">Garantir minha vaga</a>
+    <p class="note">Início em 3 de novembro · vagas limitadas a 12</p>
+  </div>
+</section>
+
+<footer>
+  <p>Mentoria para Professores · Turma Fundadora · Mastering English Institute.<br>
+  Feito com ❤️ por <a href="https://instagram.com/vivienvital" target="_blank" rel="noopener">vivienvital</a>.</p>
+</footer>
+
+<div class="sticky" id="stickyBar">
+  <span class="p">Turma Fundadora <strong>R$ 2.497</strong> à vista ou 12x R$ 249</span>
+  <a href="#investimento" class="btn btn-primary">Garantir vaga</a>
+</div>
+
+<script>
+  (function(){
+    var root=document.documentElement, btn=document.getElementById('themeToggle'), KEY='mep-lp-theme';
+    try{var s=localStorage.getItem(KEY); if(s){root.setAttribute('data-theme',s);}}catch(e){}
+    btn.addEventListener('click',function(){
+      var cur=root.getAttribute('data-theme');
+      var mq=window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var next=cur?(cur==='dark'?'light':'dark'):(mq?'light':'dark');
+      root.setAttribute('data-theme',next);
+      try{localStorage.setItem(KEY,next);}catch(e){}
+    });
+
+    var hero=document.getElementById('topo'), sticky=document.getElementById('stickyBar');
+    if('IntersectionObserver' in window && hero && sticky){
+      var io=new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          sticky.classList.toggle('show', !entry.isIntersecting);
+        });
+      },{threshold:0});
+      io.observe(hero);
+    }
+  })();
+</script>
