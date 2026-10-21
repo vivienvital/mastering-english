@@ -1,0 +1,11 @@
+{
+  "name": "testedenivelamento",
+  "account_id": "671ed1f806f2fc6c702c0d7db1c3da9e",
+  "compatibility_date": "2026-10-19",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": { "directory": "./public" },
+  "routes": [
+    { "pattern": "masteringenglish.com.br/*", "zone_name": "masteringenglish.com.br" }
+  ]
+}
