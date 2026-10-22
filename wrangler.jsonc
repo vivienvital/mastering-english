@@ -6,6 +6,7 @@
   "preview_urls": false,
   "assets": { "directory": "./public" },
   "routes": [
-    { "pattern": "masteringenglish.com.br/*", "zone_name": "masteringenglish.com.br" }
+    { "pattern": "masteringenglish.com.br/*", "zone_name": "masteringenglish.com.br" },
+    { "pattern": "www.masteringenglish.com.br/*", "zone_name": "masteringenglish.com.br" }
   ]
 }
